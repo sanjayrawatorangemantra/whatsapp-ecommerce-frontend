@@ -1,0 +1,18 @@
+.dashboard_page {
+    .card {
+        border-radius: 0.25rem;
+        box-shadow: 0 0 11px 0 #ccc;
+    }
+    .media {
+        .media-body {
+            span {
+                font-size: 18px;
+            }
+        } 
+    }
+
+    .fa {
+        font-size: 35px;
+        margin-top: -22px;
+    }
+}

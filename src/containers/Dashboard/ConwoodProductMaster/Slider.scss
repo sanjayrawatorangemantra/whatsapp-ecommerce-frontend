@@ -1,0 +1,54 @@
+.each-slide  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+  }
+  
+  .each-slide span {
+    padding: 0px;
+    font-size: 0px;
+    background: #efefef;
+    text-align: center;
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    top: 20px;
+    bottom: 27px;
+  }
+
+  .prod_image {
+    position: relative;
+
+    i {
+      position: absolute;
+      right: 3px;
+      top: 3px;
+      color: #fff;
+      font-size: 18px;
+      background-color: red;
+      padding: 4px 6px;
+      cursor: pointer;
+    }
+  }
+
+  
+    .carousel {
+      height: 159px;
+
+      .carousel-control-prev-icon,.carousel-control-next-icon {
+          background-color: #000;
+          height: 30px
+      }
+    }
+
+    .no-images {
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 15px;
+        background-color: darkgray;
+        border-radius: 5px 5px 0px 0px;
+
+    }
